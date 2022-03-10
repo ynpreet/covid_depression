@@ -110,10 +110,18 @@ view: covid_depression {
     value_format: "0.##"
   }
 
+  measure: total_value {
+    type: sum
+    sql: ${value} ;;
+    value_format: "0.##"
+  }
+
+
   measure: percentage_of_value {
     type: percent_of_total
-    sql: ${value} ;;
-
+    sql: ${total_value}/100 ;;
+    # value_format_name: percent_2
+    value_format: "0.00\%"
 
   }
 
