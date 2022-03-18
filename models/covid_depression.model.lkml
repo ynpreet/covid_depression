@@ -1,4 +1,4 @@
-connection: "gcp-poc-datalake"
+connection: "covid_depression"
 
 # include all the views
 include: "/views/**/*.view"
