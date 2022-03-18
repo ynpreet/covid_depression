@@ -125,7 +125,6 @@ view: covid_depression {
 
   }
 
-
   measure: count {
     type: count
     drill_fields: []

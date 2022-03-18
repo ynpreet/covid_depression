@@ -1,4 +1,4 @@
-connection: "inhouse_bi"
+connection: "gcp-poc-datalake"
 
 # include all the views
 include: "/views/**/*.view"
