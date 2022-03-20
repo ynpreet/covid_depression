@@ -1,5 +1,5 @@
 view: covid_depression {
-  sql_table_name: `gcp_poc_datalake.Covid_Depression`
+  sql_table_name: `manasa.covid_depression`
     ;;
 
   dimension: confidence_interval {

@@ -1,4 +1,4 @@
-connection: "usaccount"
+connection: "manasa_newp"
 
 # include all the views
 include: "/views/**/*.view"
