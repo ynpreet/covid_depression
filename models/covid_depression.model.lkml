@@ -1,4 +1,4 @@
-connection: "covid_depression"
+connection: "usaccount"
 
 # include all the views
 include: "/views/**/*.view"

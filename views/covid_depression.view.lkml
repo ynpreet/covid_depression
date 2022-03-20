@@ -1,5 +1,5 @@
 view: covid_depression {
-  sql_table_name: `bqml_preet.Covid_Depression`
+  sql_table_name: `gcp_poc_datalake.Covid_Depression`
     ;;
 
   dimension: confidence_interval {
