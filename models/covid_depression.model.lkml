@@ -1,5 +1,5 @@
 connection: "manasa_newp"
-
+connection: "bajaj_finserv_health"
 # include all the views
 include: "/views/**/*.view"
 
@@ -11,3 +11,4 @@ datagroup: covid_depression_default_datagroup {
 persist_with: covid_depression_default_datagroup
 
 explore: covid_depression {}
+explore: consultations_master {}
